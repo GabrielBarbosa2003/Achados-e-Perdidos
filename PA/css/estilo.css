@@ -1,0 +1,57 @@
+ .hrcor{
+	 border: 2px solid black;
+ }
+ 
+.menu {
+    border: solid black 2px;
+    background-color: gray;
+    overflow: hidden;
+    margin: 0 auto;
+	font-family: Helvetica;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEE5DE;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    text-align: justify;
+}
+
+.menu a:hover {
+    background-color: #3299CC;
+    color: black;
+}
+
+.container {
+    border: solid black 5px;
+    background-color: white;
+}
+
+#secundaria{
+    width: 45%;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+#terciaria{
+    width: 52%;
+    position: relative;
+    float: right;
+    text-align: center;
+}
