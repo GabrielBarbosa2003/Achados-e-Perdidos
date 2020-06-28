@@ -4,25 +4,27 @@
 			<?php
 			require_once "i_topo.php";
 			?>
-		<br><br>
+		
+			
+      <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
 			
 			<?php
 			require_once "i_menuObjeto.php";
 			?>
 
 				<DIV id="TOPO">
-			<b>EXCLUSÃO DE OBJETO(S) PERDIDO(S)</b>
+			<b>EXCLUSÃO DE CONSULTA(S) DE OBJETO(S)</b>
 				</DIV>
 			
 		<DIV id="CONTEUDO">
-			<form action="bd_exclui.php" method="post">
+			<form action="bd_exclui2.php" method="post">
 			Selecione um criterio:<br />
 				<select name="criterio">
-				  <option value="cod_obj">Código</option>
+				  <option value="cod_obj">Código (Recomendado)</option>
 				  <option value="desc_obj">Descrição</option>
-				  <option value="cor_obj">Cor</option>
-				  <option value="tam_obj">Tamanho</option>
-				  <option value="marca_obj">Marca</option>
+				  <option value="data_perd">Data</option>
+				  <option value="email_pessoa">Email</option>
+
 				</select>
 				<br />
 				Digite o valor de busca:<br />

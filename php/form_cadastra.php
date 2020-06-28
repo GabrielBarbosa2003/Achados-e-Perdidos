@@ -5,8 +5,8 @@
 		<?php
 			require_once "i_topo.php";
 			?>
-
-		<br><br>
+		
+      <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
 			
 		<?php
 			require_once "i_menuObjeto.php";
@@ -26,20 +26,18 @@
 					<label for="cor">Cor: </label>
 					<input type="text" name="cor" maxlength="30" size="30"/><br>
 
-					<label for="tamanho">Tamanho: </label>
-					<input type="text" name="tamanho" maxlength="20" size="30"/><br>
-
 					<label for="tamanho">Marca: </label>
 					<input type="text" name="marca" maxlength="20" size="30"/><br>
 
-					<label for="ponto">Ponto em que se encontra(A ou B):</label>
-					<input type="text" name="ponto" maxlength="1" size="30"/><br>
+					<label for="local">Local onde foi encontrado: </label>
+					<input type="text" name="local" maxlength="30" size="30"/><br>
 
-
+					<label for="data">Data em que foi encontrado: </label>
+					<input type="date" name="data" /><br>
 
 			</fieldset>
 			<input type="submit" value="Enviar"/>
 		 </form>
 		</DIV>	
-			</body>
+	</body>
 </HTML>

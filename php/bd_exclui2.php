@@ -1,17 +1,18 @@
-﻿<HTML>
+<HTML>
 	<HEAD>
 		<TITLE>Excluindo objeto(s)</TITLE>
 			<?php
 			require_once "i_topo.php";
 			?>
-		<br><br>
+		
+      <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
 			
 			<?php
 			require_once "i_menuObjeto.php";
 			?>
 
 			<DIV id="TOPO">
-			<b>EXCLUSÃO DE OBJETO(S) PERDIDO(S)</b>
+			<b>EXCLUSÃO DE CONSULTA(S)</b>
 				</DIV>
 			
 		<DIV id="CONTEUDO">
@@ -21,7 +22,7 @@
 
 		  include 'conecta.php';
 
-		  $query = "DELETE From tb_objeto where $criterio = '$chave'";
+		  $query = "DELETE From tb_perdi where $criterio = '$chave'";
 		  $result = mysqli_query($db,$query);
 		  echo mysqli_affected_rows($db).' objeto(s) exlcuído(s)';
 		  mysqli_close($db);

@@ -4,7 +4,9 @@
 			<?php
 			require_once "i_topo.php";
 			?>
-		<br><br>
+
+
+      <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
 			
 			<?php
 			require_once "i_menuObjeto.php";
@@ -18,7 +20,7 @@
 			<form action="bd_altera.php" method="post">
 			Selecione um criterio:<br />
 				<select name="criterio">
-				  <option value="cod_obj">Código(recomendado)</option>
+				  <option value="cod_obj">Código (Recomendado)</option>
 				  <option value="desc_obj">Descrição</option>
 				</select>
 				<br />

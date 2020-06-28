@@ -4,8 +4,9 @@
 			<?php
 			require_once "i_topo.php";
 			?>
-		<br><br>
-			
+
+		  <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
+
 			<?php
 			require_once "i_menuObjeto.php";
 			?>
@@ -36,13 +37,13 @@
 			 echo stripslashes($row[1]);
 			 echo '<br />Cor: ';
 			 echo stripslashes($row[2]);
-			 echo '<br />Tamanho: ';
-			 echo stripslashes($row[3]);
 			 echo '<br />Marca: ';
+			 echo stripslashes($row[3]);
+			 echo '<br />Local onde foi encontrado: ';
 			 echo stripslashes($row[4]);
-			 echo '<br />Ponto: ';
+			 echo '<br />Data que foi encontrado: ';
 			 echo stripslashes($row[5]);
-			 echo '<br />------------------------------------------ <br />';
+			 echo '<br />---------------------------------------------- <br />';
 		  }
 		  mysqli_close($db);
 		?>

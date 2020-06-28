@@ -15,23 +15,23 @@ color: black;
 }
 #BARRALATERAL {
 position: absolute; 
-top: 300px;
+top: 260px;
 left: -30px;
 width: 15%;
-height: 350px;
+height: 420px;
 margin: 50px;
 line-height: 2;
 font-family: arial;
-font-size: 2em;
+font-size: 1.4em;
 border: 3px solid;
 }
 #CONTEUDO {
 overflow: scroll;
 position: absolute;
 right: 20px;
-top: 350px;
+top: 310px;
 width: 80%;
-height: 350px;
+height: 420px;
 color: black;
 background-color: white ;
 font-family: arial;

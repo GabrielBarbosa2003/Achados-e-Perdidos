@@ -4,7 +4,9 @@
 			<?php
 			require_once "i_topo.php";
 			?>
-		<br><br>
+		
+		
+      <a href='i_sair.php' style="color: blue; size: 4;">Desconectar</a>
 			
 			<?php
 			require_once "i_menuObjeto.php";
@@ -22,9 +24,9 @@
 				  <option value="cod_obj">Código</option>
 				  <option value="desc_obj">Descrição</option>
 				  <option value="cor_obj">Cor</option>
-				  <option value="tam_obj">Tamanho</option>
 				  <option value="marca_obj">Marca</option>
-				  <option value="ponto_obj">Ponto</option>
+				  <option value="local_enc">Local</option>
+				  <option value="data_enc">Data</option>
 				</select><br/>
 				Digite o valor de busca:
 				<input name="chave" type="text"><br/>
